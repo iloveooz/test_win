@@ -7,6 +7,7 @@
 	class point {
 		double x;
 		double y;
+		double z;
 	public:
 		// конструктор общего вида, конструктор приведения типов, конструктор умолчания
 		point (double xi = 0.0, double yi = 0.0) : x(xi), y(yi) { }
@@ -23,6 +24,7 @@
 	class circle {
 		point center;
 		double radius;
+		double curve;
 	public:
 		// конструктор, center(c) - вызов конструктора копирования
 		circle (point c, double r) : center(c), radius(r) { } 
