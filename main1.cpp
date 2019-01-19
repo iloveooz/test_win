@@ -1,4 +1,4 @@
-//p13_01.cpp - включение классов
+﻿//p13_01.cpp - включение классов
 
 	#include <iostream>
 	using namespace std;
@@ -50,6 +50,7 @@
 		cout << "sizeof(tip) = " << sizeof(tip) << endl;
 		cout << "sizeof(oval) = " << sizeof(oval) << endl;
 		cout << "sizeof(obod) = " << sizeof(obod) << endl;
+		cout << endl;
 		return 0;
 		
 	}
